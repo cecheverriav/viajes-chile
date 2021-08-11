@@ -1,0 +1,12 @@
+nav {
+    z-index: 999;
+}
+
+.navbar-toggler {
+    z-index: 999;
+}
+
+
+#carouselMain {
+    margin-top: -60px;
+}
