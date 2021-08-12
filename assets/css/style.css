@@ -1,3 +1,8 @@
+body{
+    background-color:  black;
+    color: white;
+}
+
 nav {
     z-index: 999;
 }
@@ -6,7 +11,36 @@ nav {
     z-index: 999;
 }
 
-
 #carouselMain {
     margin-top: -60px;
 }
+
+hr {
+    color: #085E6B;
+    background-color: #085E6B;
+    opacity: 1 !important;
+    height: 3px !important;
+}
+
+section {
+    padding: 50px 50px 50px 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.rectangulo {
+    background-color: #12A3B8;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-body{
+    background-color: #12A3B8;
+}    
+
+
+    
