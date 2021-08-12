@@ -7,6 +7,10 @@ nav {
     z-index: 999;
 }
 
+.bg-celeste {
+    background-color: #2CA1AB !important;
+}
+
 .navbar-toggler {
     z-index: 999;
 }
