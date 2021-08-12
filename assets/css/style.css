@@ -41,10 +41,14 @@ h2 {
     font-size: 30px;
     text-align: center;
 }
+ 
 
-.card-body{
+#destacados .contenido {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+  
+#destacados .card{
     background-color: #12A3B8;
-}    
-
-
-    
+    width: 100% !important;
+}   
