@@ -1,3 +1,7 @@
+:root {
+    --background-color:#12A3B8;
+}
+
 body{
     background-color:  black;
     color: white;
@@ -8,7 +12,7 @@ nav {
 }
 
 .bg-celeste {
-    background-color: #2CA1AB !important;
+    background-color: var(--background-color) !important;
 }
 
 .navbar-toggler {
@@ -35,7 +39,7 @@ h2 {
 }
 
 .rectangulo {
-    background-color: #12A3B8;
+    background-color: var(--background-color);
     width: 100%;
     height: 50px;
     font-size: 30px;
@@ -49,6 +53,21 @@ h2 {
 }
   
 #destacados .card{
-    background-color: #12A3B8;
+    background-color: var(--background-color);
     width: 100% !important;
 }   
+
+footer {
+   background-color: var(--background-color);
+   height: 60px;
+   font-size: 2rem;
+}
+
+footer i {
+    padding: 5px;
+    padding-top: 15px;
+}
+
+footer p {
+    padding-top: 5px;
+}
