@@ -1,9 +1,9 @@
 :root {
-    --background-color:#12A3B8;
+    --background-color: #12A3B8;
 }
 
-body{
-    background-color:  black;
+body {
+    background-color: black;
     color: white;
 }
 
@@ -45,22 +45,21 @@ h2 {
     font-size: 30px;
     text-align: center;
 }
- 
 
 #destacados .contenido {
     padding-left: 50px;
     padding-right: 50px;
 }
-  
+
 #destacados .card {
     background-color: var(--background-color);
     width: 100% !important;
-}   
+}
 
 footer {
-   background-color: var(--background-color);
-   min-height: 60px;
-   font-size: 2rem;
+    background-color: var(--background-color);
+    min-height: 60px;
+    font-size: 2rem;
 }
 
 footer i {
@@ -80,12 +79,10 @@ footer a {
     #quienes-somos {
         display: none;
     }
-
     #destacados .contenido {
         padding-left: 0px;
         padding-right: 0px;
     }
-
     #destacados .col {
         padding-bottom: 30px;
     }
