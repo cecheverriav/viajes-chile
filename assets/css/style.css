@@ -71,7 +71,7 @@ footer p {
     padding-top: 5px;
 }
 
-footer a {
+footer a, footer a:visited {
     color: white !important;
 }
 
