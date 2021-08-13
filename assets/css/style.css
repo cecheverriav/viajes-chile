@@ -72,6 +72,9 @@ footer p {
     padding-top: 5px;
 }
 
+footer a {
+    color: white !important;
+}
 
 @media only screen and (max-width: 600px) {
     #quienes-somos {
