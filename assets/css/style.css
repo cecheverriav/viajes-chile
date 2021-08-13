@@ -54,6 +54,17 @@ h2 {
 #destacados .card {
     background-color: var(--background-color);
     width: 100% !important;
+    padding-bottom: 20px;
+    height: 400px;
+    cursor: pointer;
+}
+
+#destacados .card-body {
+    overflow: hidden;
+}
+
+.card-extended {
+    height: 600px !important;
 }
 
 footer {
